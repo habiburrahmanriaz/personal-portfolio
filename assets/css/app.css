@@ -1,0 +1,157 @@
+:root {
+  --primary-color: #fd6f00;
+  --white-text: #ffffff;
+  --black-text: #000000;
+  --gray-text: #424242;
+  --white-bg: #ffffff;
+  --black-bg: #1e1e1e;
+  --gray: #f8f8f8;
+  --white-gray: #edecec;
+}
+
+
+/* common css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "poppins";
+  color: var(--black-text);
+  background-color: var(--white-bg);
+  font-weight: 400;
+  letter-spacing: 3%;
+  font-size: 21px;
+   transition: 0.5s;
+}
+body.dark {
+  background-color: var(--black-bg);
+  color: var(--white-text);
+}
+.dark a{
+  color: var(--white-text);
+}
+  
+a{
+  text-decoration: none;
+  color: var(--black-text);
+}
+li{
+  list-style: none;
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.text-color-org{
+  color: var(--primary-color);
+}
+.primary-btn{
+  padding: 18px;
+  min-width: 188px;
+  color: var(--white-text);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main-title{
+  font-size: 100px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* header section */
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 67px;
+  margin-top: 61px;
+}
+.site-logo{
+  width: 279px;
+}
+nav ul{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;  
+}
+nav ul li a{
+  padding: 12px 14px;
+}
+
+
+/* hero section */
+.hero-section{
+  padding: 120px 0 70px 0;
+}
+.hero-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 162px;
+}
+.hero-content h6{
+  font-size: 24px;
+  font-weight: 600px;
+}
+.hero-content h5{
+  font-size: 32px;
+  font-weight: 600;
+}
+.hero-content h1{
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 110%;
+}
+.hero-content h1 span{
+  display: block;
+  text-align: right;
+}
+.hero-content p{
+  margin: 28px 0 22px 0;
+}
+.hero-icons{
+  margin-top: 30px;
+}
+.hero-icons ul{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dark mode */
+.dark-mode{
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  position: fixed;
+  left: 24%;
+  top: 11%;
+  cursor: pointer;
+ 
+}
+.dark .hero-img ul li a img{
+  background-color: var(--white-bg);
+}
+
