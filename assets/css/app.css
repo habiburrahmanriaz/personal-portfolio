@@ -282,6 +282,66 @@ nav ul li a{
 }
 
 
+/* Testimonial section */
+.testimonial-title h2{
+text-align: center;
+}
+.testimonial-title p{
+  text-align: center;
+  max-width: 932px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+.testimonial-content{
+  max-width: 1087px;
+  padding: 55px 77px 54px 48px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  background-color: var(--white-gray);
+  border-radius: 14px;
+  margin-bottom: 75px;
+}
+.content-img{
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+}
+.ceo-info p{
+  font-size: 21px;
+  font-weight: 400;
+  color: var(--gray-text);
+  position: relative;
+  margin-top: 15px;
+}
+.ceo-info h5{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 12px 0px 10px 0px;
+}
+.ceo-info h6{
+  font-size: 19px;
+  font-weight: 400px;
+}
+.dark .ceo-info h6,
+.dark .ceo-info h5{
+  color: var(--black-text);
+}
+.ceo-info span{
+  font-size: 32px;
+  font-weight: 700px;
+  color: var(--primary-color);
+  position: absolute;
+  
+}
+.ceo-info p span:first-child{
+  top: -18%;
+  left: -2%;
+}
+.ceo-info p span:last-child{
+  bottom:-25%;
+}
 
 
 
